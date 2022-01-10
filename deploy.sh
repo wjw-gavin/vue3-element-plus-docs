@@ -11,7 +11,7 @@ cd docs/.vuepress/dist
 
 git init
 git add -A
-git commit -m 'Initial commit'
+git commit -m 'deploy'
 
 # 如果发布到 https://<USERNAME>.github.io/<REPO>
-git push -f https://github.com/wjw-gavin/vue3-element-plus-docs.git main:gh-pages
+git push -f https://github.com/wjw-gavin/wjw-gavin.github.io.git master
