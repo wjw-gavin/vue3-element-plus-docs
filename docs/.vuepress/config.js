@@ -7,6 +7,13 @@ module.exports = {
     nav: [
       { text: '首页', link: '/' },
       {
+        text: '了解更多',
+        items: [
+          { text: 'vue3 中文文档', link: 'https://v3.cn.vuejs.org' },
+          { text: 'VuePress 中文文档', link: 'https://www.vuepress.cn/guide/' }
+        ]
+      },
+      {
         text: 'Github',
         link: 'https://github.com/wjw-gavin/vue3-vite-ts-element-plus'
       }
