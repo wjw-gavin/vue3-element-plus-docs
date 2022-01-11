@@ -3,6 +3,21 @@ module.exports = {
   title: 'vu3+element-plus',
   description: 'vue3-vite-ts-element-plus 使用文档',
   theme: 'reco',
+  head: [
+    [
+      'script',
+      {},
+      `
+        var _hmt = _hmt || [];
+        (function() {
+          var hm = document.createElement("script");
+          hm.src = "https://hm.baidu.com/hm.js?ef7fc6e2868b1916ca0d22e705649778";
+          var s = document.getElementsByTagName("script")[0]; 
+          s.parentNode.insertBefore(hm, s);
+        })();
+      `
+    ]
+  ],
   themeConfig: {
     nav: [
       { text: '首页', link: '/' },
