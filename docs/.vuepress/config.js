@@ -1,5 +1,5 @@
 module.exports = {
-  base: '/',
+  base: '/vue3-element-plus-docs/',
   title: 'vu3+element-plus',
   description: 'vue3-vite-ts-element-plus 使用文档',
   theme: 'reco',

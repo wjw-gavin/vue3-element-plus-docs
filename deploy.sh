@@ -21,4 +21,4 @@ git commit -m 'deploy'
 # git push -f git@github.com:<USERNAME>/<REPO>.git master:gh-pages
 
 # 如果发布到 https://<USERNAME>.github.io/<REPO>
-git push -f git@github.com:wjw-gavin/wjw-gavin.github.io.git master
+git push -f git@github.com:wjw-gavin/vue3-element-plus-docs.git master:gh-pages
