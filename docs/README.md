@@ -4,7 +4,7 @@ heroImage: 'https://www.vuepress.cn/hero.png'
 heroText: vue3 + vite + ts + element-plus
 tagline: 以 vue3+element-plus 为基础的后台模板
 actionText: 快速上手 →
-actionLink: /pages/directory-structure
+actionLink: /pages/guide/directory-structure
 features:
 - title: 功能组件
   details: 递归菜单、拖动弹窗、进度条，from表单校验方法等。

@@ -42,9 +42,25 @@ module.exports = {
           title: '指南',
           collapsable: false,
           children: [
-            { title: '项目介绍', path: '/pages/directory-structure' },
-            { title: '快速上手', path: '/pages/start' }
+            { title: '项目介绍', path: '/pages/guide/directory-structure' },
+            { title: '快速上手', path: '/pages/guide/start' }
           ]
+        },
+        {
+          title: '组件',
+          collapsable: false,
+          children: [
+            { title: 'layout', path: '/pages/components/layout' },
+            { title: 'select', path: '/pages/components/select' },
+            { title: 'top-search', path: '/pages/components/top-search' },
+            { title: 'table-page', path: '/pages/components/table-page' },
+            { title: 'form-wrap', path: '/pages/components/form-wrap' }
+          ]
+        },
+        {
+          title: '其他',
+          collapsable: false,
+          children: [{ title: '开发中', path: '/pages/doing' }]
         }
       ]
     }
